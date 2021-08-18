@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Missions">
+      <UniqueIdentifier>{e5fe9bc1-8ac5-4766-b466-2cda70cb6601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADTs">
+      <UniqueIdentifier>{e76270b6-37d3-4138-acdc-b657914a3fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rovers">
+      <UniqueIdentifier>{18bc327c-681d-4310-87f9-a34dea1a6e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{1e52ff2b-5ac6-4fdf-b4b5-70eb8e71e502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maestro Classes">
+      <UniqueIdentifier>{c79217b9-d950-48c3-8ac5-107c52f081a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QueueADT.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Rover.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="NodePri.h">
+      <Filter>ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Maestro Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>Maestro Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Input file.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
